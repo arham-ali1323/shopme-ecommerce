@@ -37,7 +37,6 @@ export default function ProductCard({ shoe, priority = false }: ProductCardProps
       rotateX: 0,
       transition: {
         duration: 0.6,
-        ease: [0.25, 0.46, 0.45, 0.94],
         staggerChildren: 0.1
       }
     },
@@ -46,8 +45,7 @@ export default function ProductCard({ shoe, priority = false }: ProductCardProps
       scale: 1.02,
       rotateX: -5,
       transition: {
-        duration: 0.3,
-        ease: "easeOut"
+        duration: 0.3
       }
     }
   };
@@ -58,8 +56,7 @@ export default function ProductCard({ shoe, priority = false }: ProductCardProps
     hover: {
       scale: 1.15,
       transition: {
-        duration: 0.4,
-        ease: "easeOut"
+        duration: 0.4
       }
     }
   };
@@ -71,8 +68,7 @@ export default function ProductCard({ shoe, priority = false }: ProductCardProps
       scale: 1.1,
       rotate: [0, -5, 5, 0],
       transition: {
-        duration: 0.6,
-        ease: "easeInOut"
+        duration: 0.6
       }
     }
   };
@@ -89,15 +85,13 @@ export default function ProductCard({ shoe, priority = false }: ProductCardProps
       scale: 1,
       y: 0,
       transition: {
-        duration: 0.3,
-        ease: "backOut"
+        duration: 0.3
       }
     },
     hover: {
       scale: 1.05,
       transition: {
-        duration: 0.2,
-        ease: "easeOut"
+        duration: 0.2
       }
     },
     tap: {
